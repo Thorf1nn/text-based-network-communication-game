@@ -1,0 +1,12 @@
+{
+  "name": "text-based-network-communication-game",
+  "version": "1.0.0",
+  "description": "A simple text-based treasure hunt game with network communication",
+  "main": "server.js",
+  "scripts": {
+    "start-server": "node server.js",
+    "start-client": "node client.js"
+  },
+  "author": "",
+  "license": "MIT"
+}
