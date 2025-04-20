@@ -1,12 +1,16 @@
 {
   "name": "text-based-network-communication-game",
   "version": "1.0.0",
-  "description": "A simple text-based treasure hunt game with network communication",
+  "description": "A simple web-based treasure hunt game with network communication",
   "main": "server.js",
   "scripts": {
-    "start-server": "node server.js",
-    "start-client": "node client.js"
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "ws": "^8.13.0"
+  }
 }
